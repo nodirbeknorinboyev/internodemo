@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Jost", sans-serif;
+  background-image: url(/images/Line.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1120px;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site_header {
+  padding: 27px 0;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.logo_title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.nav_item {
+  margin-right: 32px;
+}
+
+.nav_item a {
+  color: #292f36;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+.bx-search {
+  font-size: 25px;
+}
+
+.hero {
+  height: 900px;
+  background-size: 100% 100%;
+  background-image: url(/images/Photo.png);
+  border-bottom-left-radius: 300px;
+}
+
+.hero_content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.hero_child {
+  width: 567px;
+}
+
+.hero_title {
+  color: #292f36;
+  font-family: "DM Serif Display" sans-serif;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 9px;
+}
+
+.hero_text {
+  color: #4d5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 21px;
+}
+
+.hero_link {
+  padding: 26px 48px;
+  border-radius: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #292f36;
+  box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  text-decoration: none;
+}
+
+.hero_link i {
+  color: #cda274;
+  font-size: 25px;
+}
+
+/*plans-css*/
+#plans {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.plan_title {
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 20px;
+}
+
+.plan_text {
+  color: #4d5053;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 52px;
+}
+
+.plan_link {
+  color: #4d5053;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: 0.36px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.plan_link i {
+  font-size: 25px;
+  color: #cda274;
+}
+
+/*About content css*/
+.about_content {
+  width: 472px;
+}
+
+#about {
+  height: 900px;
+}
+
+.about_row {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.about_images img {
+  width: 600px;
+  height: 700px;
+  flex-shrink: 0;
+  border-top-right-radius: 326px;
+  border-bottom-left-radius: 123px;
+  background: #c4c4c4;
+  overflow: hidden;
+}
+
+.about_title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+  margin-bottom: 33px;
+}
+
+.about_text {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 45px;
+}
+
+.call_img {
+  width: 93px;
+  height: 93px;
+}
+
+.call {
+  display: flex;
+  width: 277px;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 47px;
+}
+
+.call_namer {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+}
+
+.call_us {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+#commit {
+  background-color: #f4f0ec;
+  padding: 88px 25px;
+  border-radius: 30px;
+}
+.commit_row {
+  gap: 20px;
+}
+
+.commit_title {
+  width: 547px;
+  margin: 0 auto;
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+  margin-bottom: 38px;
+}
+.commit_item {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 53px 37px;
+}
+/*user css*/
+.user_img {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.user_name {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.25px;
+}
+.user_loko {
+  color: #4d5053;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+}
+.user_about {
+  padding-left: 23px;
+}
+.commit_text {
+  color: #4d5053;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 54px;
+}
+/*Brand css*/
+.brand_row {
+  width: 1090.392px;
+  padding: 150px 35px;
+}
+.brand_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+.home_brand {
+  width: 131.283px;
+  height: 42.367px;
+  flex-shrink: 0;
+}
+.radis_brand {
+  width: 102.32px;
+  height: 102.32px;
+  flex-shrink: 0;
+}
+.brand_brand {
+  width: 163.379px;
+  height: 42.776px;
+  flex-shrink: 0;
+}
+.nature_brand {
+  width: 144.701px;
+  height: 44.063px;
+  flex-shrink: 0;
+}
+.demo_brand {
+  width: 116.709px;
+  height: 47.163px;
+  flex-shrink: 0;
+}
+/*Our-Projects css*/
+.our-descp {
+  gap: 8px;
+  margin-bottom: 93px;
+}
+.our-projects_title {
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1px;
+}
+.our-projects_text {
+  color: #4d5053;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+.ourcontent_row {
+  flex-wrap: wrap;
+  display: flex;
+}
+.ouritem {
+  width: 50%;
+}
