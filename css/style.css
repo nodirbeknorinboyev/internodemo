@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +7,7 @@
 
 body {
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   background-image: url(/images/Line.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -651,4 +650,86 @@ p {
 .zeindex-btn i {
   max-width: 2px;
   color: #292f36;
+}
+/* footer css*/
+footer {
+  height: 370px;
+}
+.logo_footer {
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
+.footer_text {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  margin-bottom: 31px;
+}
+.footer_list {
+  display: flex;
+  width: 225px;
+  align-items: center;
+  gap: 54px;
+}
+.footer_icon a {
+  color: #292f36;
+  text-align: center;
+  font-family: "Font Awesome 5 Brands";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.99px;
+  text-transform: uppercase;
+}
+.footers_row {
+  display: flex;
+  align-items: flex-start;
+  gap: 101px;
+}
+.footer_pages {
+  width: 125px;
+}
+.footer_pages_title {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 9px;
+}
+.pages_links {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 200%; /* 66px */
+  letter-spacing: 0.22px;
+  text-decoration: none;
+}
+.footer_pages_list {
+  width: 125px;
+}
+.footer_text_pages {
+  width: 258px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+.line_item_footer {
+  text-align: center;
+  padding: 40px 0;
+}
+.line_hithe {
+  height: 1px;
+  background-color: #e5e5e5;
+}
+.line-text-footer {
+  color: #4d5053;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.22px;
 }
